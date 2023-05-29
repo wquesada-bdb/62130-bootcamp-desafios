@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- <link rel="stylesheet" href="estilos-futuro.css"> -->
+    <!-- <link rel="stylesheet" href="estilos-peliculas.css"> -->
+    <title>Afiliación</title>
+</head>
+<body>
+    <main>
+        <header><h1>Vení al Gym! 💪🏼</h1></header>
+        <div class="content">
+            <form method="get" target="_self">
+                <fieldset class="fieldset-focus">
+                    <legend>🙋‍♂️ <span>D</span>ATOS PERSONALES 👀</legend>
+                    <div class="block-col">
+                        <label for="Nombre">Nombre:* </label>
+                        <input type="text" id="Nombre" name="Nombre" required>
+                    </div>
+                    <div class="block-col">
+                        <label for="Apellido">Apellido:* </label>
+                        <input type="text" id="Apellido" name="Apellido" required>
+                    </div>
+                    <div class="block-col">
+                        <label for="Documento">Documento:* </label>
+                        <input type="text" id="Documento" name="Documento" required>
+                    </div>
+                    <div class="block-col">
+                        <label for="Nacionalidad">Nacionalidad:* </label>
+                        <select  name="Nacionalidad" id="Nacionalidad" required>
+                            <option value="" disabled selected>-Seleccionar-</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brasileña">Brasileña</option>
+                            <option value="Uruguaya">Uruguaya</option>
+                            <option value="Otra">Otra</option>
+                        </select>
+                    </div>
+                    <div class="block-col">
+                        <label for="story">Contanos un poco de vos... </label>
+                        <textarea id="story" name="story" rows="3" cols="20"></textarea>
+                    </div>
+                    <div class="block-col">
+                        <label>Sexo: *</label>
+                        <div class="block-row">
+                            <input type="radio" id="Femenino" name="sexo" value="Femenino" required>
+                            <label for="Femenino">Femenino</label>
+                            <input type="radio" id="Masculino" name="sexo" value="Masculino" required>
+                            <label for="Masculino">Masculino</label>
+                            <input type="radio" id="Otro" name="sexo" value="Otro" required>
+                            <label for="Otro">Otro</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="sep"></div>
+                <fieldset>
+                    <legend>📱<span>D</span>ATOS DE CONTACTO 💌</legend>
+                    <div class="block-col">
+                        <label for="Telefono">Telefono: </label>
+                        <input type="text" id="Telefono" name="Telefono" placeholder="Código de área y número">
+                    </div>
+                    <div class="block-col">
+                        <label for="email">Dirección de correo electrónico:* </label>
+                        <input type="email" id="email" name="email" placeholder="Ej: mail@gmail.com" required>
+                    </div>
+                </fieldset>
+                <div class="sep"></div>
+                <fieldset>
+                    <legend>🚴 <span>A</span>CTIVIDADES 🤸‍♀️</legend>
+                    <div class="activity">
+                        <p>Por favor, indicá cuáles actividades te interesan.</p>
+                        <p>Sede Palermo:</p>
+
+                        <div class="block-row">
+                            <input type="checkbox" id="palermoBasquet" name="palermoBasquet" value="Básquet">
+                            <label for="palermoBasquet">Básquet</label>
+                            <input type="checkbox" id="palermoBoxeo" name="palermoBoxeo" value="Boxeo">
+                            <label for="palermoBoxeo">Boxeo</label>
+                            <input type="checkbox" id="palermoFutbol" name="palermoFutbol" value="Fútbol">
+                            <label for="palermoFutbol">Fútbol</label>
+                            <input type="checkbox" id="palermoTenis" name="palermoTenis" value="Tenis">
+                            <label for="palermoTenis">Tenis</label>
+                        </div>
+                            
+                        <p>Sede Rosario:</p>
+                        <div class="block-row">
+                            <input type="checkbox" id="rosarioBasquet" name="rosarioBasquet" value="Básquet">
+                            <label for="rosarioBasquet">Básquet</label>
+                            <input type="checkbox" id="rosarioFutbol" name="rosarioFutbol" value="Fútbol">
+                            <label for="rosarioFutbol">Fútbol</label>
+                            <input type="checkbox" id="rosarioRugby" name="rosarioRugby" value="Rugby">
+                            <label for="rosarioRugby">Rugby</label>
+                            <input type="checkbox" id="rosarioVoler" name="rosarioVoler" value="Voler">
+                            <label for="rosarioVoler">Voler</label>
+                        </div>
+                    
+                    </div>
+                    
+                </fieldset>
+                
+                <div class="checks-condiciones" >
+                    <div>
+                        <input type="checkbox" id="condiciones" name="condiciones" value="acepto" required>
+                        <label for="condiciones">Acepto las condiciones *</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Novedades" name="Novedades" value="Novedades">
+                        <label for="Novedades">Deseo recibir novedades</label>
+                    </div>
+                    <p>*. campo obligatorio.</p>
+                </div>
+                
+                <div class="block-row">
+                    <button type="submit">Iniciar afiliación</button>
+                    <button>Restablecer</button>
+                </div>
+                
+            </form>
+        </main>
+    </div>
+        
+</body>
+</html>

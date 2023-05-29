@@ -1,0 +1,131 @@
+body{
+    margin: 0px 0 ;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #aaa;
+    background-color: #e1b471;
+}
+footer, header{
+    border-radius: 5px;
+    margin: 0;
+    background-color: #272C32;
+    color: #D78912;
+    font-size: 28px;
+    width: 100%;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    background-color: #0832a5;
+    font-size: 25px;
+    width: 100%;
+}
+
+h3{
+    background-color: #0832a5;
+    font-size: 17px;
+    width: 100%;
+}
+img{
+    border-radius: 100px;
+    border-bottom: 5px solid #a0a0a0;
+    width: 100%;
+}
+a{
+    background-color: #1c7812;
+    padding: 10px 20px;
+    margin: auto;
+    color: #fafafa;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block; /* Por defecto es inline */
+    width: 80%;
+}
+a:hover{
+    background-color: #127848;
+    font-size: 20px;
+}
+main{
+    background-image: linear-gradient( #a0a0a0, #D78912);
+    margin: 20px 0;
+}
+.conteinerBoxCardGame{
+    display: flex;
+    justify-content: space-around;
+}
+.boxCardGame{
+    width: 300px;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #000;
+    padding-bottom: 10px;
+}
+.main{
+    display: flex;
+    background-color: rgb(160, 160, 160,0.5);
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 1%;
+}
+section
+,.section{
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border: 1px #000 solid;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('../img/fondo1.jpg');
+}
+.section{
+    height: 80%;
+    width: auto;
+}
+.ptext{
+    background-color: rgb(8, 50, 166,0.7);
+    font-size: 13px;
+}
+section:hover{
+    width: 600px;
+}
+
+section:hover img:first-of-type
+,section > img:last-of-type
+,section >a
+{
+    display: none;
+}
+
+section:hover img:last-of-type,
+section:hover > a{
+    display: block;
+}
+
+section:hover > .ptext,
+section:hover > h3{
+    color: #fff;
+}
+
+.antes{
+    text-align: center;
+    color:red;
+    text-decoration: line-through;
+}
+.prom{
+    text-align: center;
+    color:green;
+}
+span{
+    border: 10px;
+    padding: 5px;
+    display: inline-block; 
+}

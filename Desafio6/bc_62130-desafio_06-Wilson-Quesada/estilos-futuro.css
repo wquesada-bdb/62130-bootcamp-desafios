@@ -1,0 +1,207 @@
+/*
+color: #F72585;
+color: #B5179E;
+color: #7209B7;
+color: #560BAD;
+color: #480CA8;
+
+color: #3A0CA3; 
+color: #3F37C9; 
+color: #4361EE; 
+color: #4895EF; 
+color: #4CC9F0; 
+*/
+
+body {
+    background-color: #3A0CA3;
+    background-image: linear-gradient(rgba(67, 97, 238, 0.7), #3A0CA3, #7209B7 70% 90%, rgba(181, 23, 158, 0.7));
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+header{
+    border-radius: 49% 51% 46% 54% / 24% 19% 81% 76% ;
+    border:4px double rgba(76, 201, 240,0.5);
+    box-shadow: -2px 0px 14px -2px #7209B7;
+    display: flex;
+    background-color: #3A0CA3;
+    background-image: url('img/borde-futuro1.webp'), url('img/fondo_plano_malla1.webp');
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-repeat:no-repeat;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+fieldset:hover legend,
+fieldset:focus-within legend{
+    background: #2B3D36;
+    background-color: #4cc9f04d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+fieldset:hover {
+    border: 3px#4895EF solid;
+    background-color: rgba(67, 97, 238,0.4);
+    background-image: url('img/fondo_plano_malla2.webp');
+    background-size: cover, 100px auto;
+    background-repeat: no-repeat; 
+
+    background-position: bottom, top right; 
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+fieldset:focus-within{
+    background-image: url('img/fondo_plano_malla2.webp'), url(img/circulo-futuro.webp);
+    background-size: cover, 100px auto;
+    background-repeat: no-repeat; 
+    box-shadow: -2px 0px 47px 9px  rgb(247, 37, 133,0.7);
+    background-position: bottom, top right; 
+    padding: 30px 10px 10px 20px;
+    transition: padding 0.8s;
+}
+
+[type = text]:focus,[type = email]:focus, textarea:focus{
+    background-color: rgb(76, 201, 240,0.3);
+    transition: background-color 0.8s;
+}
+fieldset {
+    border: 3px transparent solid;
+    padding: 0;
+    margin-bottom: 20px;
+    transition: padding 0.8s;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+fieldset legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+fieldset legend span {
+    font-size: 25px;
+    position: relative;
+    top: -2px;
+}
+
+.block-col {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+}
+textarea {
+    resize: vertical;
+}
+
+.block-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.checks-condiciones {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checks-condiciones label{
+    display: inline;
+}
+p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4361EE;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #B5179E;
+}
+
+button:hover {
+    background-color: #4895EF;
+}
+button[type="submit"]:hover {
+    background-color: #F72585;
+}
+
+.sep {
+    border-top: 1px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.block-row{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}

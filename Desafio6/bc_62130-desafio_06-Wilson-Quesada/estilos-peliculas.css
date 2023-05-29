@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;800;900&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 
+colores
+color: #A2967A;
+color: #BBB3A7;
+color: #7D7858;
+color: #958756;
+color: #7F6343;
+color: #080804; */
+
+body {
+    background: #A2967A;
+    background-image: linear-gradient(#BBB3A7, #7D7858);
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 8px;
+    background-color:rgba(8, 8, 4,0.6);
+    color: #BBB3A7;
+    padding: 10px;
+}
+header{
+    background-color:rgb(162, 150, 122);
+    background-image: url('img/filmstrip-png.webp');
+    background-size: contain;
+    background-repeat:repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left:4px #000 solid;
+    border-right: 4px #000 solid;
+    margin: 10px;
+    height: 180px;
+}
+fieldset legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #958756;
+  border-radius: 5px;
+  padding: 10px;
+  width: 40%;
+}
+
+.block-col >label{
+    width: 15%; 
+    background-color: rgba(149, 135, 86,0.3);
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+textarea {
+  resize: vertical;
+}
+
+.block-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:5px 50px;
+}
+.sep{
+    border: none;
+    border-bottom: #080804 dashed 10px;
+    padding: 10px;
+    width: 60%;
+    margin: 5px auto;
+}
+fieldset{
+    background-color: #BBB3A7;
+    box-shadow: -2px 0px 14px -2px rgba(0,0,0,0.6);
+    padding: 10px 50px;
+    margin: 20px;
+}
+form fieldset:nth-child(1) {
+    background-image: url('img/contdown1.jpg'),  url('img/proyector.png');
+}
+
+form fieldset:nth-child(3){
+    background-image: url('img/contdown2.jpg'),  url('img/31408.png');
+}
+
+form fieldset:nth-child(5){
+    background-image: url('img/contdown3.jpg'),  url('img/6481576.png');
+}
+
+form fieldset{
+    background-position: top right, bottom left;
+    background-size: 100px auto;
+    background-repeat: no-repeat; 
+}
+.content {
+    background-color: #7F6343;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -2px 0px 14px -2px rgba(0,0,0,0.6);
+}
+
+.checks-condiciones {
+    margin-top: 20px;
+}
+.checks-condiciones{
+    color:#BBB3A7;
+    margin: 0 auto;
+}
+
+
+.block-row{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.block-row > label{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #A2967A;
+    color: #080804;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #958756;
+    border: none;
+}

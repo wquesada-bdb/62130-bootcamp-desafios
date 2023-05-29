@@ -1,0 +1,40 @@
+
+img{
+    border-radius: 20px;
+    border-bottom: 5px solid #a0a0a0;
+}
+
+.boxCardGame{
+    text-align: center;
+    width: 20%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.imgs{
+    border-radius: 10px;
+    border: 5px solid #aaa;
+    margin: 5px 5%;
+    padding-bottom: 10px;
+}
+section{
+    align-items: center;
+}
+.antes{
+    text-align: center;
+    color:red;
+    text-decoration: line-through;
+}
+.prom{
+    text-align: center;
+    color:green;
+}
+.text{
+    float: right;
+}
+span{
+    border: 10px;
+    padding: 5px;
+    display: inline-block; 
+}
